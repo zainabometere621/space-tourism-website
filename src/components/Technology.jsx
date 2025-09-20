@@ -10,8 +10,6 @@ import croppedCapsule from "../assets/d-technology-images/spaceCapsule.png"
 export default function Technology() {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeTechnology = technologies[activeIndex];    
-
-  // Cropped images for phone + tablet only
   const croppedImages = [croppedVehicle, croppedPort, croppedCapsule];
 
   return (
@@ -21,14 +19,13 @@ export default function Technology() {
     >
       <Header />
 
-      {/* Title */}
       <div className="flex font-barlow text-[18px] md:text-[20px] lg:text-[25px] tracking-[4px] gap-2 
                       mt-6 lg:mt-[40px] uppercase justify-center md:justify-start md:ml-[35px] lg:ml-[120px]">
         <h2 className="text-gray-700 font-extrabold">03</h2>
         <h2 className="text-white">space launch 101</h2>
       </div>
 
-      {/* === Tablet Image Full Width === */}
+      {/* tablet */}
         <div className="hidden md:block lg:hidden w-full mt-4">
             <img 
             src={croppedImages[activeIndex]} 
@@ -37,7 +34,7 @@ export default function Technology() {
             />
         </div>
 
-      {/* === Phone Image Full Width === */}
+      {/* phone */}
       <div className="w-full md:hidden mt-4">
         <img 
           src={croppedImages[activeIndex]} 
@@ -50,10 +47,10 @@ export default function Technology() {
       <div className="flex-1 flex flex-col-reverse md:flex-col lg:flex-row justify-center items-center lg:items-start 
                       gap-4 lg:gap-[110px] mt-0 lg:mt-0 px-6 lg:px-0">
         
-        {/* Left: Circles + Text (desktop) */}
+    
         <div className="flex flex-col lg:flex-row gap-2 mb-12 md:gap-[50px] lg:ml-[220px] lg:mt-[70px] lg:relative lg:right-[120px]">
 
-          {/* Circles */}
+        
           <div className="flex lg:order-none md:flex-row lg:flex-col justify-center md:justify-center gap-4 md:gap-6 lg:gap-[25px] mt-0 md:mt-6 lg:mt-0">
             {technologies.map((tech, index) => (
               <button
@@ -72,7 +69,7 @@ export default function Technology() {
             ))}
           </div>
 
-          {/* Text */}
+          
           <div className="max-w-sm md:mb-10 text-center md:text-center lg:text-left mt-2 md:mt-0 lg:mt-8 ">
             <h4 className="uppercase font-barlow text-[#D0D6F9] text-[9px] md:text-[10px] tracking-[2.5px]">
               {activeTechnology.title}
@@ -86,7 +83,7 @@ export default function Technology() {
           </div>
         </div>
 
-        {/* Desktop Image */}
+        {/* desktop */}
         <div className="hidden lg:flex lg:justify-end w-full lg:w-auto">
           <img 
             src={activeTechnology.image} 

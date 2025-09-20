@@ -22,7 +22,7 @@ export default function Header() {
           />
         </div>
 
-        {/* Horizontal line (desktop only) */}
+       {/* line for desktop */}
         <div className="flex-1 pl-8 hidden lg:block">
           <hr className="border-gray-600 border-t" />
         </div>
@@ -53,7 +53,7 @@ export default function Header() {
           </ul>
         </nav>
 
-        {/* Hamburger button (phone only) */}
+        {/* harmbuger phone */}
         <div className="md:hidden ml-auto pr-6">
           <button
             onClick={() => setIsOpen(!isOpen)}

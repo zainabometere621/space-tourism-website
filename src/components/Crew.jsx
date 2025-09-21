@@ -63,7 +63,7 @@ export default function Crew() {
           <img
             src={activeCrew.image}
             alt={activeCrew.image}
-            className="w-[250px] h-[250px] md:w-[400px] md:h-[280px] lg:w-[470px] lg:h-[442px] object-contain"
+            className="w-[250px] h-[250px] md:w-[400px] md:h-[280px] lg:w-[470px] lg:h-[451px] object-contain"
           />
           
           {/* Phone */}

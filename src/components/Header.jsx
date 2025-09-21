@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom"; // ✅ useLocation for active route
-import spaceLogo from "../assets/a-home-page-images/spaceLogo.png";
+import spaceLogo from "/assets/a-home-page-images/spaceLogo.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

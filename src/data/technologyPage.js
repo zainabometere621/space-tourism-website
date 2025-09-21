@@ -1,6 +1,6 @@
-import vehicleImg from "../assets/d-technology-images/launchVehicle.jpg"
-import portImg from "../assets/d-technology-images/spacePort.png"
-import capsuleImg from "../assets/d-technology-images/spaceCapsule.png"
+import vehicleImg from "/assets/d-technology-images/launchVehicle.jpg"
+import portImg from "/assets/d-technology-images/spacePort.png"
+import capsuleImg from "/assets/d-technology-images/spaceCapsule.png"
 const technologies = [
     {
         title: "the terminology...",

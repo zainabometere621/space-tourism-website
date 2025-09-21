@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import background from "../assets/b-destination-images/background.jpg"
+import background from "/assets/b-destination-images/background.jpg"
 import Header from "../components/Header"
 import destinations from "../data/destinationPage"
 

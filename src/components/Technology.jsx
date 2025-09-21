@@ -1,11 +1,11 @@
 
 import React,{useState} from 'react'
-import background from "../assets/d-technology-images/background.jpg"
+import background from "/assets/d-technology-images/background.jpg"
 import Header from "./Header"
 import technologies from "../data/technologyPage"
-import croppedVehicle from "../assets/d-technology-images/launchVehicle1.jpg"
-import croppedPort from "../assets/d-technology-images/spacePort2.png"
-import croppedCapsule from "../assets/d-technology-images/spaceCapsule.png"
+import croppedVehicle from "/assets/d-technology-images/launchVehicle1.jpg"
+import croppedPort from "/assets/d-technology-images/spacePort2.png"
+import croppedCapsule from "/assets/d-technology-images/spaceCapsule.png"
 
 export default function Technology() {
   const [activeIndex, setActiveIndex] = useState(0);

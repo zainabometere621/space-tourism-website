@@ -1,7 +1,7 @@
-import moonImg from "../assets/b-destination-images/moon.png";
-import marsImg from "../assets/b-destination-images/mars.png";
-import titanImg from "../assets/b-destination-images/titan.png";
-import europaImg from "../assets/b-destination-images/europa.png";
+import moonImg from "/assets/b-destination-images/moon.png";
+import marsImg from "/assets/b-destination-images/mars.png";
+import titanImg from "/assets/b-destination-images/titan.png";
+import europaImg from "/assets/b-destination-images/europa.png";
 
 const destinations = [
     {

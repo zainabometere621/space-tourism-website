@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import background from "../assets/c-crew-images/background.png"
+import background from "/assets/c-crew-images/background.png"
 import Header from "./Header"
 import crews from "../data/crewPage"
 

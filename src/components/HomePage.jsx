@@ -1,6 +1,6 @@
 import React from 'react'
-import backgroundDesktop from "../assets/a-home-page-images/background.png";  
-import backgroundTablet from "../assets/a-home-page-images/backgroundTablet1.png";  
+import backgroundDesktop from "/assets/a-home-page-images/background.png";  
+import backgroundTablet from "/assets/a-home-page-images/backgroundTablet1.png";  
 
 import Header from "../components/Header"
 

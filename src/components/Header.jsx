@@ -54,12 +54,12 @@ export default function Header() {
         </nav>
 
         {/* harmbuger phone */}
-        <div className="md:hidden ml-auto pr-6">
+        <div className="md:hidden z-60 ml-auto pr-6">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-white text-2xl"
           >
-            {isOpen ? "✖" : "☰"}
+            ☰
           </button>
         </div>
       </header>
@@ -67,6 +67,12 @@ export default function Header() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden backdrop-blur-lg shadow-lg text-white uppercase font-barlow text-sm tracking-[2.5px] fixed z-50 right-0 w-2/3 top-0 h-screen p-6">
+          <button
+            onClick={() => setIsOpen(false)}
+            className="absolute right-4 text-2xl"
+          >
+            ✖
+          </button>
           <ul className="flex flex-col gap-6">
             <li>
               <Link to="/" onClick={() => setIsOpen(false)}>00 Home</Link>

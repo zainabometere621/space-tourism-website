@@ -59,7 +59,7 @@ export default function Crew() {
         </div>
 
         {/* Image */}
-        <div className="flex flex-col items-center mt-6">
+        <div className="flex flex-col items-center mt-2">
           <img
             src={activeCrew.image}
             alt={activeCrew.image}
@@ -67,7 +67,7 @@ export default function Crew() {
           />
           
           {/* Phone */}
-          <div className="md:hidden w-full flex flex-col items-center  mb-[35px]">
+          <div className="md:hidden w-full flex flex-col items-center md:mt-6 mt-2">
             <hr className="w-3/4 border-gray-600 my-0" />
             <div className="flex gap-4 mt-2">
               {crews.map((_, index) => (

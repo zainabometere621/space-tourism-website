@@ -6,26 +6,26 @@ import Header from "../components/Header"
 
 export default function HomePage() {
   return (
-    <div className="relative h-screen overflow:hidden"> 
+    <div className="relative min-h-screen overflow-hidden"> 
       {/* desktop background */}
       <img 
         src={backgroundDesktop} 
         alt="desktop background" 
-        className="absolute inset-0 w-full h-full object-cover -z-10 hidden lg:block" 
+        className="absolute inset-0 w-full object-cover -z-10 hidden lg:block" 
       />
 
       {/* tablet background */}
       <img 
         src={backgroundTablet} 
         alt="tablet background" 
-        className="absolute inset-0 w-full h-screen object-cover -z-10 hidden md:block lg:hidden" 
+        className="absolute inset-0 w-full object-cover -z-10 hidden md:block lg:hidden" 
       />
 
      {/* phone background */}
       <img 
         src={backgroundTablet} 
         alt="phone background" 
-        className="absolute inset-0 w-full h-screen object-cover -z-10 block md:hidden" 
+        className="absolute inset-0 w-full object-cover -z-10 block md:hidden" 
       />
 
       <Header/>

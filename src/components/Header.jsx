@@ -31,9 +31,9 @@ export default function Header() {
         <nav className="hidden md:flex text-white h-20 items-center justify-center backdrop-blur-lg shadow-lg px-6">
           <ul className="flex gap-[30px] lg:gap-[50px] uppercase cursor-pointer font-barlow text-xs tracking-[2.5px] h-full">
             <li className={`flex items-center border-b-2 ${
-              isActive("/") ? "border-white" : "border-transparent hover:border-gray-500"
+              isActive("/home") ? "border-white" : "border-transparent hover:border-gray-500"
             }`}>
-              <Link to="/">00 Home</Link>
+              <Link to="/home">00 Home</Link>
             </li>
             <li className={`flex items-center border-b-2 ${
               isActive("/destination") ? "border-white" : "border-transparent hover:border-gray-500"
@@ -69,7 +69,7 @@ export default function Header() {
         <div className="md:hidden backdrop-blur-lg shadow-lg text-white uppercase font-barlow text-sm tracking-[2.5px] absolute right-0 w-2/3 top-0 h-screen p-6">
           <ul className="flex flex-col gap-6">
             <li>
-              <Link to="/" onClick={() => setIsOpen(false)}>00 Home</Link>
+              <Link to="/home" onClick={() => setIsOpen(false)}>00 Home</Link>
             </li>
             <li>
               <Link to="/destination" onClick={() => setIsOpen(false)}>01 Destination</Link>

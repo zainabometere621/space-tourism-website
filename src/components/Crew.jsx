@@ -9,7 +9,7 @@ export default function Crew() {
 
   return (
     <div
-      className="h-screen bg-cover bg-center flex flex-col"
+      className="min-h-screen bg-cover bg-center flex flex-col"
       style={{ backgroundImage: `url(${background})` }}
     >
       <Header />

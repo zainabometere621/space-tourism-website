@@ -75,7 +75,7 @@ export default function HomePage() {
             hover:ring-[20px] hover:ring-gray-800
             md:w-32 md:h-32 md:text-base md:hover:ring-[25px]
             lg:w-52 lg:h-52 lg:text-xl lg:hover:ring-[45px]">
-            EXPLORE
+            01
           </button>
         </div>
       </div>

@@ -66,7 +66,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden backdrop-blur-lg shadow-lg text-white uppercase font-barlow text-sm tracking-[2.5px] absolute right-0 top-20 w-2/3 h-[553px] p-6">
+        <div className="md:hidden backdrop-blur-lg shadow-lg text-white uppercase font-barlow text-sm tracking-[2.5px] absolute right-0 top-20 w-2/3 h-screen p-6">
           <ul className="flex flex-col gap-6">
             <li>
               <Link to="/" onClick={() => setIsOpen(false)}>00 Home</Link>

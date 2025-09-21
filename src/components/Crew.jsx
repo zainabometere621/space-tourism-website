@@ -59,11 +59,11 @@ export default function Crew() {
         </div>
 
         {/* Image */}
-        <div className="flex flex-col items-center mt-0">
+        <div className="flex flex-col items-center mt-6">
           <img
             src={activeCrew.image}
             alt={activeCrew.image}
-            className="w-[250px] h-[250px] md:w-[400px] md:h-[280px] lg:w-[470px] lg:h-[451px] object-contain"
+            className="w-[250px] h-[300px] md:w-[400px] md:h-[280px] lg:w-[470px] lg:h-[451px] object-contain"
           />
           
           {/* Phone */}

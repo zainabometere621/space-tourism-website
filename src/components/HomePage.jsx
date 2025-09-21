@@ -70,12 +70,12 @@ export default function HomePage() {
           md:mt-6 md:mr-0
           lg:mt-32 lg:mr-20'> 
           <button 
-            className="rounded-full w-32 h-32 text-xs bg-white text-[#0b0d17] font-barlow tracking-[2px]
+            className=" uppercase rounded-full w-32 h-32 text-xs bg-white text-[#0b0d17] font-barlow tracking-[2px]
             flex items-center justify-center transition-all duration-500 ease-in-out
             hover:ring-[20px] hover:ring-gray-800
             md:w-32 md:h-32 md:text-base md:hover:ring-[25px]
             lg:w-52 lg:h-52 lg:text-xl lg:hover:ring-[45px]">
-            01
+            explore
           </button>
         </div>
       </div>

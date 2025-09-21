@@ -1,7 +1,7 @@
 import commanderImg from "/assets/c-crew-images/commander.png";
 import specialistImg from "/assets/c-crew-images/missionSpecialist.png";
-import pilotImg from "/assets/c-crew-images/pilot.png";
 import engineerImg from "/assets/c-crew-images/flightEngineer.png";
+import pilotImg from "/assets/c-crew-images/pilot.png";
 
 const crews = [
     {

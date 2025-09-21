@@ -66,7 +66,7 @@ export default function HomePage() {
 
        {/* buttons */}
         <div 
-          className='mt-12 mr-0
+          className='mt-[50px] mr-0
           md:mt-6 md:mr-0
           lg:mt-32 lg:mr-20'> 
           <button 

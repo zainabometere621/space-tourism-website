@@ -95,7 +95,7 @@ import Header from "../components/Header"
 
 export default function HomePage() {
   return (
-    <div className="relative min-h-screen overflow-hidden"> 
+    <div className="relative min-h-screen overflow-y-hidden"> 
       {/* desktop background */}
       <img 
         src={backgroundDesktop} 

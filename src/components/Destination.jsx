@@ -9,7 +9,7 @@ export default function Destination() {
 
   return (
     <div 
-      className="h-screen bg-cover bg-center"
+      className="min-h-screen overflow-hidden bg-cover bg-center"
       style={{ backgroundImage: `url(${background})` }}
     >
       <Header />

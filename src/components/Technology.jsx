@@ -14,7 +14,7 @@ export default function Technology() {
 
   return (
     <div
-      className="h-screen bg-cover bg-center flex flex-col overflow-hidden"
+      className="min-h-screen bg-cover bg-center flex flex-col overflow-hidden"
       style={{ backgroundImage: `url(${background})` }}
     >
       <Header />
@@ -27,11 +27,11 @@ export default function Technology() {
 
       {/* tablet */}
         <div className="hidden md:block lg:hidden w-full mt-4">
-            <img 
-            src={croppedImages[activeIndex]} 
-            alt={activeTechnology.name}
-            className="w-full h-auto max-h-[170px] object-cover object-center"
-            />
+          <img 
+          src={croppedImages[activeIndex]} 
+          alt={activeTechnology.name}
+          className="w-full h-auto max-h-[170px] object-cover object-center"
+          />
         </div>
 
       {/* phone */}

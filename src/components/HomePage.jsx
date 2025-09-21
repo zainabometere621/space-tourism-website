@@ -36,7 +36,7 @@ export default function HomePage() {
         md:flex-col md:items-center md:text-center md:px-8 md:py-12
         lg:flex-row lg:justify-between lg:px-32 lg:py-0'> 
         <div 
-          className='max-w-xs mt-0 mb-8
+          className='max-w-xs mt-0 mb-4
           md:mt-1 md:max-w-xs md:mb-6
           lg:mt-24 lg:max-w-md lg:mb-16'> 
 
@@ -55,7 +55,7 @@ export default function HomePage() {
           </h1>
 
          
-          <p className='text-[12px] leading-loose  sm:tracking-[1.5px] mt-2 text-white font-barlow font-light   
+          <p className='text-[12px] leading-normal  sm:tracking-[1.5px] mt-2 text-white font-barlow font-light   
             md:text-[12px] md:leading-loose tracking-[1.5px] md:mt-0 
             lg:text-[13px] lg:tracking-[3.5px]'>
             Let’s face it; if you want to go to space, you might as well genuinely go to outer space 
@@ -66,7 +66,7 @@ export default function HomePage() {
 
        {/* buttons */}
         <div 
-          className='mt-[50px] mr-0
+          className='pt-6 mr-0
           md:mt-6 md:mr-0
           lg:mt-32 lg:mr-20'> 
           <button 

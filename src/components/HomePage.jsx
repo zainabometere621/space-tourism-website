@@ -11,21 +11,21 @@ export default function HomePage() {
       <img 
         src={backgroundDesktop} 
         alt="desktop background" 
-        className="absolute inset-0 w-full min-h-screen object-cover -z-10 hidden lg:block" 
+        className="absolute inset-0 w-full h-full object-cover -z-10 hidden lg:block" 
       />
 
       {/* tablet background */}
       <img 
         src={backgroundTablet} 
         alt="tablet background" 
-        className="absolute inset-0 w-full object-cover min-h-scree-z-10 hidden md:block lg:hidden" 
+        className="absolute inset-0 w-full object-cover h-full-z-10 hidden md:block lg:hidden" 
       />
 
      {/* phone background */}
       <img 
         src={backgroundTablet} 
         alt="phone background" 
-        className="absolute inset-0 w-full object-cover min-h-screen -z-10 block md:hidden" 
+        className="absolute inset-0 w-full object-cover h-full -z-10 block md:hidden" 
       />
 
       <Header/>

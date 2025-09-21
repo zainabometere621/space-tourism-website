@@ -153,7 +153,7 @@ export default function HomePage() {
 
         {/* button */}
         <div 
-          className='mt-16 mr-0
+          className='mt-[150px] mr-0
           md:mt-8 md:mr-0
           lg:mt-32 lg:mr-20'> 
           <button 
